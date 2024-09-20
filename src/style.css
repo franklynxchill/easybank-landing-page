@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('/assets/fonts/PublicSans-Bold.woff2') format(woff2),
+       url('/assets/fonts/PublicSans-Bold.woff') format(woff);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('/assets/fonts/PublicSans-Light.woff2') format(woff2),
+       url('/assets/fonts/PublicSans-Light.woff') format(woff);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('/assets/fonts/PublicSans-Regular.woff2') format(woff2),
+       url('/assets/fonts/PublicSans-Regular.woff') format(woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.btn {
+  @apply  text-white rounded-full py-4 px-10 bg-gradient-to-r from-limeGreen to-brightCyan hover:bg-brightCyan
+}
+
+header li {
+  @apply hover:border-b-4 hover:border-b-limeGreen  py-2 cursor-pointer md:py-10
+}
+
+i{
+  @apply text-white text-2xl cursor-pointer hover:text-limeGreen
+}
