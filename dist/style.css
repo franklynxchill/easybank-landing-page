@@ -1145,6 +1145,10 @@ i:hover {
     padding-left: 6rem;
   }
 
+  .md\:pl-\[7rem\] {
+    padding-left: 7rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
