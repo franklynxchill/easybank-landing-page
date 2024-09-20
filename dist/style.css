@@ -1074,6 +1074,10 @@ i:hover {
     width: 47rem;
   }
 
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
   .md\:flex-1 {
     flex: 1 1 0%;
   }
@@ -1135,6 +1139,10 @@ i:hover {
 
   .md\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .md\:pl-\[6rem\] {
+    padding-left: 6rem;
   }
 
   .md\:text-left {
