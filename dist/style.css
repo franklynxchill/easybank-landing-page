@@ -612,22 +612,6 @@ video {
   top: 8rem;
 }
 
-.top-\[-4\.5rem\] {
-  top: -4.5rem;
-}
-
-.top-\[-4rem\] {
-  top: -4rem;
-}
-
-.top-\[-6rem\] {
-  top: -6rem;
-}
-
-.top-\[-3rem\] {
-  top: -3rem;
-}
-
 .top-\[-2\.5rem\] {
   top: -2.5rem;
 }
@@ -638,6 +622,11 @@ video {
 
 .z-40 {
   z-index: 40;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-10 {
@@ -652,12 +641,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .mt-2 {
@@ -688,6 +677,10 @@ video {
   height: 26rem;
 }
 
+.w-\[18rem\] {
+  width: 18rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -702,10 +695,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -755,10 +744,6 @@ video {
 
 .gap-y-9 {
   row-gap: 2.25rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
 }
 
 .overflow-hidden {
@@ -842,10 +827,6 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
 }
 
 .pt-28 {
@@ -975,8 +956,7 @@ video {
 }
 
 .btn:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(192 70% 51% / var(--tw-bg-opacity));
+  opacity: 0.8;
 }
 
 header li {
@@ -1014,6 +994,11 @@ i:hover {
 .hover\:bg-limeGreen:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(136 65% 51% / var(--tw-bg-opacity));
+}
+
+.hover\:text-brightCyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(192 70% 51% / var(--tw-text-opacity));
 }
 
 .hover\:text-limeGreen:hover {
@@ -1066,16 +1051,16 @@ i:hover {
     width: 25rem;
   }
 
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
   .md\:w-\[44rem\] {
     width: 44rem;
   }
 
   .md\:w-\[47rem\] {
     width: 47rem;
-  }
-
-  .md\:w-\[30rem\] {
-    width: 30rem;
   }
 
   .md\:flex-1 {
@@ -1133,20 +1118,12 @@ i:hover {
     padding-bottom: 0px;
   }
 
-  .md\:pl-14 {
-    padding-left: 3.5rem;
+  .md\:pl-\[7rem\] {
+    padding-left: 7rem;
   }
 
   .md\:pt-28 {
     padding-top: 7rem;
-  }
-
-  .md\:pl-\[6rem\] {
-    padding-left: 6rem;
-  }
-
-  .md\:pl-\[7rem\] {
-    padding-left: 7rem;
   }
 
   .md\:text-left {

@@ -29,7 +29,7 @@
 
 
 .btn {
-  @apply  text-white rounded-full py-4 px-10 bg-gradient-to-r from-limeGreen to-brightCyan hover:bg-brightCyan
+  @apply  text-white rounded-full py-4 px-10 bg-gradient-to-r from-limeGreen to-brightCyan hover:opacity-80
 }
 
 header li {
