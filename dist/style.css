@@ -1149,6 +1149,10 @@ i:hover {
     width: 23rem;
   }
 
+  .sm\:w-\[24rem\] {
+    width: 24rem;
+  }
+
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1408,6 +1412,10 @@ i:hover {
 
   .md\:w-\[40rem\] {
     width: 40rem;
+  }
+
+  .md\:w-\[45rem\] {
+    width: 45rem;
   }
 
   .md\:flex-1 {
