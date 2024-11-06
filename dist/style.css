@@ -841,6 +841,11 @@ video {
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 .bg-introMobile {
   background-image: url('/assets/images/bg-intro-mobile.svg');
 }
@@ -1072,6 +1077,14 @@ i:hover {
     top: -8rem;
   }
 
+  .sm\:ml-\[-3rem\] {
+    margin-left: -3rem;
+  }
+
+  .sm\:ml-\[-9rem\] {
+    margin-left: -9rem;
+  }
+
   .sm\:h-\[32rem\] {
     height: 32rem;
   }
@@ -1208,6 +1221,14 @@ i:hover {
 
   .sm\:pl-\[-3rem\] {
     padding-left: -3rem;
+  }
+
+  .sm\:pl-\[1rem\] {
+    padding-left: 1rem;
+  }
+
+  .sm\:pr-0 {
+    padding-right: 0px;
   }
 
   .sm\:text-sm {
@@ -1367,6 +1388,14 @@ i:hover {
 
   .md\:w-\[21rem\] {
     width: 21rem;
+  }
+
+  .md\:w-\[35rem\] {
+    width: 35rem;
+  }
+
+  .md\:w-\[37rem\] {
+    width: 37rem;
   }
 
   .md\:flex-1 {
