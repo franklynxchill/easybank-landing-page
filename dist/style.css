@@ -1089,6 +1089,10 @@ i:hover {
     margin-left: 3rem;
   }
 
+  .sm\:ml-\[6rem\] {
+    margin-left: 6rem;
+  }
+
   .sm\:h-\[32rem\] {
     height: 32rem;
   }
