@@ -1085,6 +1085,10 @@ i:hover {
     margin-left: -9rem;
   }
 
+  .sm\:ml-\[3rem\] {
+    margin-left: 3rem;
+  }
+
   .sm\:h-\[32rem\] {
     height: 32rem;
   }
@@ -1396,6 +1400,10 @@ i:hover {
 
   .md\:w-\[37rem\] {
     width: 37rem;
+  }
+
+  .md\:w-\[40rem\] {
+    width: 40rem;
   }
 
   .md\:flex-1 {
